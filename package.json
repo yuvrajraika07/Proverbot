@@ -1,0 +1,40 @@
+{
+	"name": "proverbot",
+	"version": "1.0.0",
+	"description": "A bot that generates proverbs",
+	"type": "module",
+	"scripts": {
+		"fstart": "forever start build/sources/main.js",
+		"fstop": "forever stop build/sources/main.js",
+		"gen": "node build/sources/generate.js",
+		"start": "node build/sources/main.js",
+		"build": "npx tsc",
+		"dev-build": "npx tsc -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/angeluriot/Proverbot.git"
+	},
+	"keywords": [
+		"twitter-bot",
+		"text-generation",
+		"image-generation"
+	],
+	"author": "Angel Uriot",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/angeluriot/Proverbot/issues"
+	},
+	"homepage": "https://github.com/angeluriot/Proverbot#readme",
+	"dependencies": {
+		"@types/node": "^20.12.11",
+		"@types/node-schedule": "^2.1.7",
+		"canvas": "^2.11.2",
+		"deepl-node": "^1.13.0",
+		"dotenv": "^16.4.5",
+		"forever": "^4.0.3",
+		"node-schedule": "^2.1.1",
+		"twitter-api-v2": "^1.16.4",
+		"typescript": "^5.4.5"
+	}
+}

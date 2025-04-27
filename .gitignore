@@ -1,0 +1,10 @@
+/.vscode
+/build
+/data
+/generated
+/history
+/node_modules
+/queue
+/temp
+/.env
+/package-lock.json
