@@ -10,7 +10,7 @@
 
 This repository contains the source code of a bot that generate random French proverb images and post them on Twitter. *(Inspired by **[InspiroBot](https://inspirobot.me/)**)*
 
-You can see its Twitter account here: [https://twitter.com/TheProverbot](https://twitter.com/TheProverbot).
+You can see its Twitter account here: [https://twitter.com/TheProverbot]().
 
 <br/>
 
@@ -91,4 +91,4 @@ You can see its Twitter account here: [https://twitter.com/TheProverbot](https:/
 
 # 🙏 Credits
 
-* [**Angel Uriot**](https://github.com/angeluriot) : Creator of the project.
+* [**yuvraj raika**](https://github.com/yuvrajraika07) : Creator of the project.
